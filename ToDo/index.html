@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./css/style.css">
+    <div class="container">
+        <label > Name : 
+            <input type="text" name="Name " id = "NameInput" class = "Input">
+        </label>
+        <br>
+        <label>
+            Content : 
+            <textarea id="textInput" rows="4" cols="50"></textarea>
+    
+        </label>
+    
+        
+    </div class="container">
+    <button type="button" id = "AddTolist"> Add To List </button>
+    <div id = "ListDiv">
+        <label>
+            <ol id = "TodoList">
+            </ol>
+        </label>
+        
+    </div>
+    <script src = "js/script.js"></script>
+    <div>
+        <button type ="button" id = "dequeue">Remove Task</button>
+    </div>
+</body>
+</html>

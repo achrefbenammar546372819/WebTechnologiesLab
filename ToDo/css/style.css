@@ -1,0 +1,90 @@
+
+/**#AddTolist {
+    position: absolute ;
+    left :200px ; 
+    top: 175px;   
+}
+
+
+#textInput {
+    width : 175px ; 
+    height : 120px; 
+    position: absolute ;
+    top: auto;
+    left: 100px ;
+    margin-top: 20px;
+}
+
+#NameInput{
+    width : 175px ; 
+    position: absolute; 
+    left : 100px ; 
+}
+
+#ListDiv{
+    position: absolute;
+    left : 400px ; 
+    top : 0px ; 
+
+}
+#dequeue {
+    position: absolute;
+    left : 200px ; 
+    top: 200px;
+}*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.Input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#dequeue {
+    background-color: #dc3545;
+}
+
+#dequeue:hover {
+    background-color: #bd2130;
+}
